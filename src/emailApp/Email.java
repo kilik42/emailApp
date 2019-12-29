@@ -72,14 +72,46 @@ public class Email {
 	
 	
 	// set the mailbox capacity
-	
+	public void setMailBoxCapacity(int capacity){
+		this.mailboxCapacity = capacity;
+		
+	}
 	
 	// set the alternate email
 	
-	
+	public void setAlternateEmail(String altEmail){
+		this.alternateEmail = altEmail;
+		
+	}
 	
 	
 	//change the password
+	public void changePassword(String password){
+		this.password = password;
+	}
 	
+	
+	public int getMailboxCampacity (){
+		return mailboxCapacity;
+	}
+	
+	public String getAlternateEmail(){
+		return alternateEmail;
+	}
+
+	private String alternateEmail() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	public String getPassword(){
+		return password;
+	}
+	
+	public String showInfo(){
+		//String maiBoxCapacity;
+		return "display name: " + firstName + ""+ lastName + "company email: " + email + " mailbox capacity: "+ mailboxCapacity + "mb";
+		
+	}
 	
 }
