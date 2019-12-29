@@ -110,7 +110,7 @@ public class Email {
 	
 	public String showInfo(){
 		//String maiBoxCapacity;
-		return "display name: " + firstName + ""+ lastName + "company email: " + email + " mailbox capacity: "+ mailboxCapacity + "mb";
+		return "display name: " + firstName + "."+ lastName + "\ncompany email: " + email + " \nmailbox capacity: "+ mailboxCapacity + " mb";
 		
 	}
 	
